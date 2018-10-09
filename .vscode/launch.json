@@ -1,0 +1,130 @@
+{
+	"version": "0.2.0",
+	"configurations": [
+		{
+			"name": "HelloARUnreal (Debug)",
+			"request": "launch",
+			"preLaunchTask": "HelloARUnreal Win64 Debug Build",
+			"program": "D:\\Downloads\\arcore-unreal-sdk-master\\arcore-unreal-sdk-master\\HelloARUnreal\\Binaries\\Win64\\HelloARUnreal-Win64-Debug.exe",
+			"args": [
+			],
+			"cwd": "D:\\Games\\UE_4.20",
+			"stopAtEntry": false,
+			"externalConsole": true,
+			"type": "cppvsdbg",
+			"visualizerFile": "D:\\Games\\UE_4.20\\Engine\\Extras\\VisualStudioDebugging\\UE4.natvis"
+		},
+		{
+			"name": "HelloARUnreal (DebugGame)",
+			"request": "launch",
+			"preLaunchTask": "HelloARUnreal Win64 DebugGame Build",
+			"program": "D:\\Downloads\\arcore-unreal-sdk-master\\arcore-unreal-sdk-master\\HelloARUnreal\\Binaries\\Win64\\HelloARUnreal-Win64-DebugGame.exe",
+			"args": [
+			],
+			"cwd": "D:\\Games\\UE_4.20",
+			"stopAtEntry": false,
+			"externalConsole": true,
+			"type": "cppvsdbg",
+			"visualizerFile": "D:\\Games\\UE_4.20\\Engine\\Extras\\VisualStudioDebugging\\UE4.natvis"
+		},
+		{
+			"name": "HelloARUnreal (Development)",
+			"request": "launch",
+			"preLaunchTask": "HelloARUnreal Win64 Development Build",
+			"program": "D:\\Downloads\\arcore-unreal-sdk-master\\arcore-unreal-sdk-master\\HelloARUnreal\\Binaries\\Win64\\HelloARUnreal.exe",
+			"args": [
+			],
+			"cwd": "D:\\Games\\UE_4.20",
+			"stopAtEntry": false,
+			"externalConsole": true,
+			"type": "cppvsdbg",
+			"visualizerFile": "D:\\Games\\UE_4.20\\Engine\\Extras\\VisualStudioDebugging\\UE4.natvis"
+		},
+		{
+			"name": "HelloARUnreal (Shipping)",
+			"request": "launch",
+			"preLaunchTask": "HelloARUnreal Win64 Shipping Build",
+			"program": "D:\\Downloads\\arcore-unreal-sdk-master\\arcore-unreal-sdk-master\\HelloARUnreal\\Binaries\\Win64\\HelloARUnreal-Win64-Shipping.exe",
+			"args": [
+			],
+			"cwd": "D:\\Games\\UE_4.20",
+			"stopAtEntry": false,
+			"externalConsole": true,
+			"type": "cppvsdbg",
+			"visualizerFile": "D:\\Games\\UE_4.20\\Engine\\Extras\\VisualStudioDebugging\\UE4.natvis"
+		},
+		{
+			"name": "HelloARUnreal (Test)",
+			"request": "launch",
+			"preLaunchTask": "HelloARUnreal Win64 Test Build",
+			"program": "D:\\Downloads\\arcore-unreal-sdk-master\\arcore-unreal-sdk-master\\HelloARUnreal\\Binaries\\Win64\\HelloARUnreal-Win64-Test.exe",
+			"args": [
+			],
+			"cwd": "D:\\Games\\UE_4.20",
+			"stopAtEntry": false,
+			"externalConsole": true,
+			"type": "cppvsdbg",
+			"visualizerFile": "D:\\Games\\UE_4.20\\Engine\\Extras\\VisualStudioDebugging\\UE4.natvis"
+		},
+		{
+			"name": "HelloARUnrealEditor (Debug)",
+			"request": "launch",
+			"preLaunchTask": "HelloARUnrealEditor Win64 Debug Build",
+			"program": "D:\\Games\\UE_4.20\\Engine\\Binaries\\Win64\\UE4Editor-Win64-Debug.exe",
+			"args": [
+				"D:\\Downloads\\arcore-unreal-sdk-master\\arcore-unreal-sdk-master\\HelloARUnreal\\HelloARUnreal.uproject",
+				"-debug"
+			],
+			"cwd": "D:\\Games\\UE_4.20",
+			"stopAtEntry": false,
+			"externalConsole": true,
+			"type": "cppvsdbg",
+			"visualizerFile": "D:\\Games\\UE_4.20\\Engine\\Extras\\VisualStudioDebugging\\UE4.natvis"
+		},
+		{
+			"name": "HelloARUnrealEditor (DebugGame)",
+			"request": "launch",
+			"preLaunchTask": "HelloARUnrealEditor Win64 DebugGame Build",
+			"program": "D:\\Games\\UE_4.20\\Engine\\Binaries\\Win64\\UE4Editor.exe",
+			"args": [
+				"D:\\Downloads\\arcore-unreal-sdk-master\\arcore-unreal-sdk-master\\HelloARUnreal\\HelloARUnreal.uproject",
+				"-debug"
+			],
+			"cwd": "D:\\Games\\UE_4.20",
+			"stopAtEntry": false,
+			"externalConsole": true,
+			"type": "cppvsdbg",
+			"visualizerFile": "D:\\Games\\UE_4.20\\Engine\\Extras\\VisualStudioDebugging\\UE4.natvis"
+		},
+		{
+			"name": "HelloARUnrealEditor (Development)",
+			"request": "launch",
+			"preLaunchTask": "HelloARUnrealEditor Win64 Development Build",
+			"program": "D:\\Games\\UE_4.20\\Engine\\Binaries\\Win64\\UE4Editor.exe",
+			"args": [
+				"D:\\Downloads\\arcore-unreal-sdk-master\\arcore-unreal-sdk-master\\HelloARUnreal\\HelloARUnreal.uproject"
+			],
+			"cwd": "D:\\Games\\UE_4.20",
+			"stopAtEntry": false,
+			"externalConsole": true,
+			"type": "cppvsdbg",
+			"visualizerFile": "D:\\Games\\UE_4.20\\Engine\\Extras\\VisualStudioDebugging\\UE4.natvis"
+		},
+		{
+			"name": "Generate Project Files",
+			"type": "clr",
+			"request": "launch",
+			"program": "D:\\Games\\UE_4.20\\Engine\\Binaries\\DotNET\\UnrealBuildTool.exe",
+			"console": "externalTerminal",
+			"args": [
+				"-projectfiles",
+				"-vscode",
+				"-project=\"D:\\Downloads\\arcore-unreal-sdk-master\\arcore-unreal-sdk-master\\HelloARUnreal\\HelloARUnreal.uproject\"",
+				"-game",
+				"-engine"
+			],
+			"internalConsoleOptions": "openOnSessionStart",
+			"cwd": "D:\\Games\\UE_4.20"
+		}
+	]
+}

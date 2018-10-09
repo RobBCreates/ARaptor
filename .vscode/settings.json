@@ -1,0 +1,7 @@
+{
+	"files.exclude": {
+		"D:/Downloads/arcore-unreal-sdk-master/arcore-unreal-sdk-master/HelloARUnreal/.vscode": true,
+		"D:/Downloads/arcore-unreal-sdk-master/arcore-unreal-sdk-master/HelloARUnreal/Content": true,
+		"D:/Downloads/arcore-unreal-sdk-master/arcore-unreal-sdk-master/HelloARUnreal/Intermediate": true
+	}
+}

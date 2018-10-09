@@ -1,0 +1,1247 @@
+{
+	"version": "2.0.0",
+	"tasks": [
+		{
+			"label": "HelloARUnreal Win32 Debug Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"HelloARUnreal",
+				"Win32",
+				"Debug",
+				"D:\\Downloads\\arcore-unreal-sdk-master\\arcore-unreal-sdk-master\\HelloARUnreal\\HelloARUnreal.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\Games\\UE_4.20"
+			}
+		},
+		{
+			"label": "HelloARUnreal Win32 Debug Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"HelloARUnreal",
+				"Win32",
+				"Debug",
+				"D:\\Downloads\\arcore-unreal-sdk-master\\arcore-unreal-sdk-master\\HelloARUnreal\\HelloARUnreal.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"HelloARUnreal Win32 Debug Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\Games\\UE_4.20"
+			}
+		},
+		{
+			"label": "HelloARUnreal Win32 Debug Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"HelloARUnreal",
+				"Win32",
+				"Debug",
+				"D:\\Downloads\\arcore-unreal-sdk-master\\arcore-unreal-sdk-master\\HelloARUnreal\\HelloARUnreal.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\Games\\UE_4.20"
+			}
+		},
+		{
+			"label": "HelloARUnreal Win32 DebugGame Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"HelloARUnreal",
+				"Win32",
+				"DebugGame",
+				"D:\\Downloads\\arcore-unreal-sdk-master\\arcore-unreal-sdk-master\\HelloARUnreal\\HelloARUnreal.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\Games\\UE_4.20"
+			}
+		},
+		{
+			"label": "HelloARUnreal Win32 DebugGame Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"HelloARUnreal",
+				"Win32",
+				"DebugGame",
+				"D:\\Downloads\\arcore-unreal-sdk-master\\arcore-unreal-sdk-master\\HelloARUnreal\\HelloARUnreal.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"HelloARUnreal Win32 DebugGame Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\Games\\UE_4.20"
+			}
+		},
+		{
+			"label": "HelloARUnreal Win32 DebugGame Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"HelloARUnreal",
+				"Win32",
+				"DebugGame",
+				"D:\\Downloads\\arcore-unreal-sdk-master\\arcore-unreal-sdk-master\\HelloARUnreal\\HelloARUnreal.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\Games\\UE_4.20"
+			}
+		},
+		{
+			"label": "HelloARUnreal Win32 Development Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"HelloARUnreal",
+				"Win32",
+				"Development",
+				"D:\\Downloads\\arcore-unreal-sdk-master\\arcore-unreal-sdk-master\\HelloARUnreal\\HelloARUnreal.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\Games\\UE_4.20"
+			}
+		},
+		{
+			"label": "HelloARUnreal Win32 Development Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"HelloARUnreal",
+				"Win32",
+				"Development",
+				"D:\\Downloads\\arcore-unreal-sdk-master\\arcore-unreal-sdk-master\\HelloARUnreal\\HelloARUnreal.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"HelloARUnreal Win32 Development Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\Games\\UE_4.20"
+			}
+		},
+		{
+			"label": "HelloARUnreal Win32 Development Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"HelloARUnreal",
+				"Win32",
+				"Development",
+				"D:\\Downloads\\arcore-unreal-sdk-master\\arcore-unreal-sdk-master\\HelloARUnreal\\HelloARUnreal.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\Games\\UE_4.20"
+			}
+		},
+		{
+			"label": "HelloARUnreal Win32 Shipping Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"HelloARUnreal",
+				"Win32",
+				"Shipping",
+				"D:\\Downloads\\arcore-unreal-sdk-master\\arcore-unreal-sdk-master\\HelloARUnreal\\HelloARUnreal.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\Games\\UE_4.20"
+			}
+		},
+		{
+			"label": "HelloARUnreal Win32 Shipping Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"HelloARUnreal",
+				"Win32",
+				"Shipping",
+				"D:\\Downloads\\arcore-unreal-sdk-master\\arcore-unreal-sdk-master\\HelloARUnreal\\HelloARUnreal.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"HelloARUnreal Win32 Shipping Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\Games\\UE_4.20"
+			}
+		},
+		{
+			"label": "HelloARUnreal Win32 Shipping Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"HelloARUnreal",
+				"Win32",
+				"Shipping",
+				"D:\\Downloads\\arcore-unreal-sdk-master\\arcore-unreal-sdk-master\\HelloARUnreal\\HelloARUnreal.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\Games\\UE_4.20"
+			}
+		},
+		{
+			"label": "HelloARUnreal Win32 Test Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"HelloARUnreal",
+				"Win32",
+				"Test",
+				"D:\\Downloads\\arcore-unreal-sdk-master\\arcore-unreal-sdk-master\\HelloARUnreal\\HelloARUnreal.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\Games\\UE_4.20"
+			}
+		},
+		{
+			"label": "HelloARUnreal Win32 Test Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"HelloARUnreal",
+				"Win32",
+				"Test",
+				"D:\\Downloads\\arcore-unreal-sdk-master\\arcore-unreal-sdk-master\\HelloARUnreal\\HelloARUnreal.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"HelloARUnreal Win32 Test Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\Games\\UE_4.20"
+			}
+		},
+		{
+			"label": "HelloARUnreal Win32 Test Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"HelloARUnreal",
+				"Win32",
+				"Test",
+				"D:\\Downloads\\arcore-unreal-sdk-master\\arcore-unreal-sdk-master\\HelloARUnreal\\HelloARUnreal.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\Games\\UE_4.20"
+			}
+		},
+		{
+			"label": "HelloARUnreal Win64 Debug Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"HelloARUnreal",
+				"Win64",
+				"Debug",
+				"D:\\Downloads\\arcore-unreal-sdk-master\\arcore-unreal-sdk-master\\HelloARUnreal\\HelloARUnreal.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\Games\\UE_4.20"
+			}
+		},
+		{
+			"label": "HelloARUnreal Win64 Debug Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"HelloARUnreal",
+				"Win64",
+				"Debug",
+				"D:\\Downloads\\arcore-unreal-sdk-master\\arcore-unreal-sdk-master\\HelloARUnreal\\HelloARUnreal.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"HelloARUnreal Win64 Debug Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\Games\\UE_4.20"
+			}
+		},
+		{
+			"label": "HelloARUnreal Win64 Debug Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"HelloARUnreal",
+				"Win64",
+				"Debug",
+				"D:\\Downloads\\arcore-unreal-sdk-master\\arcore-unreal-sdk-master\\HelloARUnreal\\HelloARUnreal.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\Games\\UE_4.20"
+			}
+		},
+		{
+			"label": "HelloARUnreal Win64 DebugGame Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"HelloARUnreal",
+				"Win64",
+				"DebugGame",
+				"D:\\Downloads\\arcore-unreal-sdk-master\\arcore-unreal-sdk-master\\HelloARUnreal\\HelloARUnreal.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\Games\\UE_4.20"
+			}
+		},
+		{
+			"label": "HelloARUnreal Win64 DebugGame Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"HelloARUnreal",
+				"Win64",
+				"DebugGame",
+				"D:\\Downloads\\arcore-unreal-sdk-master\\arcore-unreal-sdk-master\\HelloARUnreal\\HelloARUnreal.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"HelloARUnreal Win64 DebugGame Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\Games\\UE_4.20"
+			}
+		},
+		{
+			"label": "HelloARUnreal Win64 DebugGame Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"HelloARUnreal",
+				"Win64",
+				"DebugGame",
+				"D:\\Downloads\\arcore-unreal-sdk-master\\arcore-unreal-sdk-master\\HelloARUnreal\\HelloARUnreal.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\Games\\UE_4.20"
+			}
+		},
+		{
+			"label": "HelloARUnreal Win64 Development Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"HelloARUnreal",
+				"Win64",
+				"Development",
+				"D:\\Downloads\\arcore-unreal-sdk-master\\arcore-unreal-sdk-master\\HelloARUnreal\\HelloARUnreal.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\Games\\UE_4.20"
+			}
+		},
+		{
+			"label": "HelloARUnreal Win64 Development Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"HelloARUnreal",
+				"Win64",
+				"Development",
+				"D:\\Downloads\\arcore-unreal-sdk-master\\arcore-unreal-sdk-master\\HelloARUnreal\\HelloARUnreal.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"HelloARUnreal Win64 Development Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\Games\\UE_4.20"
+			}
+		},
+		{
+			"label": "HelloARUnreal Win64 Development Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"HelloARUnreal",
+				"Win64",
+				"Development",
+				"D:\\Downloads\\arcore-unreal-sdk-master\\arcore-unreal-sdk-master\\HelloARUnreal\\HelloARUnreal.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\Games\\UE_4.20"
+			}
+		},
+		{
+			"label": "HelloARUnreal Win64 Shipping Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"HelloARUnreal",
+				"Win64",
+				"Shipping",
+				"D:\\Downloads\\arcore-unreal-sdk-master\\arcore-unreal-sdk-master\\HelloARUnreal\\HelloARUnreal.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\Games\\UE_4.20"
+			}
+		},
+		{
+			"label": "HelloARUnreal Win64 Shipping Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"HelloARUnreal",
+				"Win64",
+				"Shipping",
+				"D:\\Downloads\\arcore-unreal-sdk-master\\arcore-unreal-sdk-master\\HelloARUnreal\\HelloARUnreal.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"HelloARUnreal Win64 Shipping Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\Games\\UE_4.20"
+			}
+		},
+		{
+			"label": "HelloARUnreal Win64 Shipping Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"HelloARUnreal",
+				"Win64",
+				"Shipping",
+				"D:\\Downloads\\arcore-unreal-sdk-master\\arcore-unreal-sdk-master\\HelloARUnreal\\HelloARUnreal.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\Games\\UE_4.20"
+			}
+		},
+		{
+			"label": "HelloARUnreal Win64 Test Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"HelloARUnreal",
+				"Win64",
+				"Test",
+				"D:\\Downloads\\arcore-unreal-sdk-master\\arcore-unreal-sdk-master\\HelloARUnreal\\HelloARUnreal.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\Games\\UE_4.20"
+			}
+		},
+		{
+			"label": "HelloARUnreal Win64 Test Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"HelloARUnreal",
+				"Win64",
+				"Test",
+				"D:\\Downloads\\arcore-unreal-sdk-master\\arcore-unreal-sdk-master\\HelloARUnreal\\HelloARUnreal.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"HelloARUnreal Win64 Test Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\Games\\UE_4.20"
+			}
+		},
+		{
+			"label": "HelloARUnreal Win64 Test Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"HelloARUnreal",
+				"Win64",
+				"Test",
+				"D:\\Downloads\\arcore-unreal-sdk-master\\arcore-unreal-sdk-master\\HelloARUnreal\\HelloARUnreal.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\Games\\UE_4.20"
+			}
+		},
+		{
+			"label": "HelloARUnreal Android Debug Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"HelloARUnreal",
+				"Android",
+				"Debug",
+				"D:\\Downloads\\arcore-unreal-sdk-master\\arcore-unreal-sdk-master\\HelloARUnreal\\HelloARUnreal.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\Games\\UE_4.20"
+			}
+		},
+		{
+			"label": "HelloARUnreal Android Debug Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"HelloARUnreal",
+				"Android",
+				"Debug",
+				"D:\\Downloads\\arcore-unreal-sdk-master\\arcore-unreal-sdk-master\\HelloARUnreal\\HelloARUnreal.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"HelloARUnreal Android Debug Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\Games\\UE_4.20"
+			}
+		},
+		{
+			"label": "HelloARUnreal Android Debug Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"HelloARUnreal",
+				"Android",
+				"Debug",
+				"D:\\Downloads\\arcore-unreal-sdk-master\\arcore-unreal-sdk-master\\HelloARUnreal\\HelloARUnreal.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\Games\\UE_4.20"
+			}
+		},
+		{
+			"label": "HelloARUnreal Android DebugGame Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"HelloARUnreal",
+				"Android",
+				"DebugGame",
+				"D:\\Downloads\\arcore-unreal-sdk-master\\arcore-unreal-sdk-master\\HelloARUnreal\\HelloARUnreal.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\Games\\UE_4.20"
+			}
+		},
+		{
+			"label": "HelloARUnreal Android DebugGame Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"HelloARUnreal",
+				"Android",
+				"DebugGame",
+				"D:\\Downloads\\arcore-unreal-sdk-master\\arcore-unreal-sdk-master\\HelloARUnreal\\HelloARUnreal.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"HelloARUnreal Android DebugGame Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\Games\\UE_4.20"
+			}
+		},
+		{
+			"label": "HelloARUnreal Android DebugGame Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"HelloARUnreal",
+				"Android",
+				"DebugGame",
+				"D:\\Downloads\\arcore-unreal-sdk-master\\arcore-unreal-sdk-master\\HelloARUnreal\\HelloARUnreal.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\Games\\UE_4.20"
+			}
+		},
+		{
+			"label": "HelloARUnreal Android Development Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"HelloARUnreal",
+				"Android",
+				"Development",
+				"D:\\Downloads\\arcore-unreal-sdk-master\\arcore-unreal-sdk-master\\HelloARUnreal\\HelloARUnreal.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\Games\\UE_4.20"
+			}
+		},
+		{
+			"label": "HelloARUnreal Android Development Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"HelloARUnreal",
+				"Android",
+				"Development",
+				"D:\\Downloads\\arcore-unreal-sdk-master\\arcore-unreal-sdk-master\\HelloARUnreal\\HelloARUnreal.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"HelloARUnreal Android Development Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\Games\\UE_4.20"
+			}
+		},
+		{
+			"label": "HelloARUnreal Android Development Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"HelloARUnreal",
+				"Android",
+				"Development",
+				"D:\\Downloads\\arcore-unreal-sdk-master\\arcore-unreal-sdk-master\\HelloARUnreal\\HelloARUnreal.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\Games\\UE_4.20"
+			}
+		},
+		{
+			"label": "HelloARUnreal Android Shipping Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"HelloARUnreal",
+				"Android",
+				"Shipping",
+				"D:\\Downloads\\arcore-unreal-sdk-master\\arcore-unreal-sdk-master\\HelloARUnreal\\HelloARUnreal.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\Games\\UE_4.20"
+			}
+		},
+		{
+			"label": "HelloARUnreal Android Shipping Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"HelloARUnreal",
+				"Android",
+				"Shipping",
+				"D:\\Downloads\\arcore-unreal-sdk-master\\arcore-unreal-sdk-master\\HelloARUnreal\\HelloARUnreal.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"HelloARUnreal Android Shipping Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\Games\\UE_4.20"
+			}
+		},
+		{
+			"label": "HelloARUnreal Android Shipping Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"HelloARUnreal",
+				"Android",
+				"Shipping",
+				"D:\\Downloads\\arcore-unreal-sdk-master\\arcore-unreal-sdk-master\\HelloARUnreal\\HelloARUnreal.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\Games\\UE_4.20"
+			}
+		},
+		{
+			"label": "HelloARUnreal Android Test Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"HelloARUnreal",
+				"Android",
+				"Test",
+				"D:\\Downloads\\arcore-unreal-sdk-master\\arcore-unreal-sdk-master\\HelloARUnreal\\HelloARUnreal.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\Games\\UE_4.20"
+			}
+		},
+		{
+			"label": "HelloARUnreal Android Test Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"HelloARUnreal",
+				"Android",
+				"Test",
+				"D:\\Downloads\\arcore-unreal-sdk-master\\arcore-unreal-sdk-master\\HelloARUnreal\\HelloARUnreal.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"HelloARUnreal Android Test Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\Games\\UE_4.20"
+			}
+		},
+		{
+			"label": "HelloARUnreal Android Test Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"HelloARUnreal",
+				"Android",
+				"Test",
+				"D:\\Downloads\\arcore-unreal-sdk-master\\arcore-unreal-sdk-master\\HelloARUnreal\\HelloARUnreal.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\Games\\UE_4.20"
+			}
+		},
+		{
+			"label": "HelloARUnreal HTML5 Debug Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"HelloARUnreal",
+				"HTML5",
+				"Debug",
+				"D:\\Downloads\\arcore-unreal-sdk-master\\arcore-unreal-sdk-master\\HelloARUnreal\\HelloARUnreal.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\Games\\UE_4.20"
+			}
+		},
+		{
+			"label": "HelloARUnreal HTML5 Debug Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"HelloARUnreal",
+				"HTML5",
+				"Debug",
+				"D:\\Downloads\\arcore-unreal-sdk-master\\arcore-unreal-sdk-master\\HelloARUnreal\\HelloARUnreal.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"HelloARUnreal HTML5 Debug Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\Games\\UE_4.20"
+			}
+		},
+		{
+			"label": "HelloARUnreal HTML5 Debug Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"HelloARUnreal",
+				"HTML5",
+				"Debug",
+				"D:\\Downloads\\arcore-unreal-sdk-master\\arcore-unreal-sdk-master\\HelloARUnreal\\HelloARUnreal.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\Games\\UE_4.20"
+			}
+		},
+		{
+			"label": "HelloARUnreal HTML5 DebugGame Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"HelloARUnreal",
+				"HTML5",
+				"DebugGame",
+				"D:\\Downloads\\arcore-unreal-sdk-master\\arcore-unreal-sdk-master\\HelloARUnreal\\HelloARUnreal.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\Games\\UE_4.20"
+			}
+		},
+		{
+			"label": "HelloARUnreal HTML5 DebugGame Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"HelloARUnreal",
+				"HTML5",
+				"DebugGame",
+				"D:\\Downloads\\arcore-unreal-sdk-master\\arcore-unreal-sdk-master\\HelloARUnreal\\HelloARUnreal.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"HelloARUnreal HTML5 DebugGame Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\Games\\UE_4.20"
+			}
+		},
+		{
+			"label": "HelloARUnreal HTML5 DebugGame Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"HelloARUnreal",
+				"HTML5",
+				"DebugGame",
+				"D:\\Downloads\\arcore-unreal-sdk-master\\arcore-unreal-sdk-master\\HelloARUnreal\\HelloARUnreal.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\Games\\UE_4.20"
+			}
+		},
+		{
+			"label": "HelloARUnreal HTML5 Development Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"HelloARUnreal",
+				"HTML5",
+				"Development",
+				"D:\\Downloads\\arcore-unreal-sdk-master\\arcore-unreal-sdk-master\\HelloARUnreal\\HelloARUnreal.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\Games\\UE_4.20"
+			}
+		},
+		{
+			"label": "HelloARUnreal HTML5 Development Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"HelloARUnreal",
+				"HTML5",
+				"Development",
+				"D:\\Downloads\\arcore-unreal-sdk-master\\arcore-unreal-sdk-master\\HelloARUnreal\\HelloARUnreal.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"HelloARUnreal HTML5 Development Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\Games\\UE_4.20"
+			}
+		},
+		{
+			"label": "HelloARUnreal HTML5 Development Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"HelloARUnreal",
+				"HTML5",
+				"Development",
+				"D:\\Downloads\\arcore-unreal-sdk-master\\arcore-unreal-sdk-master\\HelloARUnreal\\HelloARUnreal.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\Games\\UE_4.20"
+			}
+		},
+		{
+			"label": "HelloARUnreal HTML5 Shipping Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"HelloARUnreal",
+				"HTML5",
+				"Shipping",
+				"D:\\Downloads\\arcore-unreal-sdk-master\\arcore-unreal-sdk-master\\HelloARUnreal\\HelloARUnreal.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\Games\\UE_4.20"
+			}
+		},
+		{
+			"label": "HelloARUnreal HTML5 Shipping Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"HelloARUnreal",
+				"HTML5",
+				"Shipping",
+				"D:\\Downloads\\arcore-unreal-sdk-master\\arcore-unreal-sdk-master\\HelloARUnreal\\HelloARUnreal.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"HelloARUnreal HTML5 Shipping Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\Games\\UE_4.20"
+			}
+		},
+		{
+			"label": "HelloARUnreal HTML5 Shipping Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"HelloARUnreal",
+				"HTML5",
+				"Shipping",
+				"D:\\Downloads\\arcore-unreal-sdk-master\\arcore-unreal-sdk-master\\HelloARUnreal\\HelloARUnreal.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\Games\\UE_4.20"
+			}
+		},
+		{
+			"label": "HelloARUnreal HTML5 Test Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"HelloARUnreal",
+				"HTML5",
+				"Test",
+				"D:\\Downloads\\arcore-unreal-sdk-master\\arcore-unreal-sdk-master\\HelloARUnreal\\HelloARUnreal.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\Games\\UE_4.20"
+			}
+		},
+		{
+			"label": "HelloARUnreal HTML5 Test Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"HelloARUnreal",
+				"HTML5",
+				"Test",
+				"D:\\Downloads\\arcore-unreal-sdk-master\\arcore-unreal-sdk-master\\HelloARUnreal\\HelloARUnreal.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"HelloARUnreal HTML5 Test Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\Games\\UE_4.20"
+			}
+		},
+		{
+			"label": "HelloARUnreal HTML5 Test Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"HelloARUnreal",
+				"HTML5",
+				"Test",
+				"D:\\Downloads\\arcore-unreal-sdk-master\\arcore-unreal-sdk-master\\HelloARUnreal\\HelloARUnreal.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\Games\\UE_4.20"
+			}
+		},
+		{
+			"label": "HelloARUnrealEditor Win64 Debug Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"HelloARUnrealEditor",
+				"Win64",
+				"Debug",
+				"D:\\Downloads\\arcore-unreal-sdk-master\\arcore-unreal-sdk-master\\HelloARUnreal\\HelloARUnreal.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\Games\\UE_4.20"
+			}
+		},
+		{
+			"label": "HelloARUnrealEditor Win64 Debug Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"HelloARUnrealEditor",
+				"Win64",
+				"Debug",
+				"D:\\Downloads\\arcore-unreal-sdk-master\\arcore-unreal-sdk-master\\HelloARUnreal\\HelloARUnreal.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"HelloARUnrealEditor Win64 Debug Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\Games\\UE_4.20"
+			}
+		},
+		{
+			"label": "HelloARUnrealEditor Win64 Debug Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"HelloARUnrealEditor",
+				"Win64",
+				"Debug",
+				"D:\\Downloads\\arcore-unreal-sdk-master\\arcore-unreal-sdk-master\\HelloARUnreal\\HelloARUnreal.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\Games\\UE_4.20"
+			}
+		},
+		{
+			"label": "HelloARUnrealEditor Win64 DebugGame Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"HelloARUnrealEditor",
+				"Win64",
+				"DebugGame",
+				"D:\\Downloads\\arcore-unreal-sdk-master\\arcore-unreal-sdk-master\\HelloARUnreal\\HelloARUnreal.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\Games\\UE_4.20"
+			}
+		},
+		{
+			"label": "HelloARUnrealEditor Win64 DebugGame Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"HelloARUnrealEditor",
+				"Win64",
+				"DebugGame",
+				"D:\\Downloads\\arcore-unreal-sdk-master\\arcore-unreal-sdk-master\\HelloARUnreal\\HelloARUnreal.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"HelloARUnrealEditor Win64 DebugGame Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\Games\\UE_4.20"
+			}
+		},
+		{
+			"label": "HelloARUnrealEditor Win64 DebugGame Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"HelloARUnrealEditor",
+				"Win64",
+				"DebugGame",
+				"D:\\Downloads\\arcore-unreal-sdk-master\\arcore-unreal-sdk-master\\HelloARUnreal\\HelloARUnreal.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\Games\\UE_4.20"
+			}
+		},
+		{
+			"label": "HelloARUnrealEditor Win64 Development Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"HelloARUnrealEditor",
+				"Win64",
+				"Development",
+				"D:\\Downloads\\arcore-unreal-sdk-master\\arcore-unreal-sdk-master\\HelloARUnreal\\HelloARUnreal.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\Games\\UE_4.20"
+			}
+		},
+		{
+			"label": "HelloARUnrealEditor Win64 Development Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"HelloARUnrealEditor",
+				"Win64",
+				"Development",
+				"D:\\Downloads\\arcore-unreal-sdk-master\\arcore-unreal-sdk-master\\HelloARUnreal\\HelloARUnreal.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"HelloARUnrealEditor Win64 Development Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\Games\\UE_4.20"
+			}
+		},
+		{
+			"label": "HelloARUnrealEditor Win64 Development Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"HelloARUnrealEditor",
+				"Win64",
+				"Development",
+				"D:\\Downloads\\arcore-unreal-sdk-master\\arcore-unreal-sdk-master\\HelloARUnreal\\HelloARUnreal.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\Games\\UE_4.20"
+			}
+		}
+	]
+}
